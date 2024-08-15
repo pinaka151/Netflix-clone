@@ -1,0 +1,43 @@
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media screen and (max-width:750px) {
+    .Enter{
+        align-items: center;
+    }
+    .Enter-btn .btn-red {
+        margin: 30px 151px;
+        width: 160px;
+    }
+
+
+    .Enter h3 {
+        text-align: center;
+    }
+
+    .Enter input {
+        margin: 0px 60px;
+    }
+    .hero> :first-child {
+       font-size: 32px;
+    }
+    
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+}
